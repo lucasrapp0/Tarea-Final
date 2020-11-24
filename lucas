@@ -1,0 +1,99 @@
+Python 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> pint (Bienvenido al programa..")
+  File "<stdin>", line 1
+    pint (Bienvenido al programa..")
+                     ^
+SyntaxError: invalid syntax
+>>> persona = {"Nombre":"","Apellido":"","Edad":0,"Peso":0,"Altura":0,"Direccion":"","Telefono":""}
+>>> def cat_IMC():
+... "Obtencion de categoria de imc"
+  File "<stdin>", line 2
+    "Obtencion de categoria de imc"
+    ^
+IndentationError: expected an indented block
+>>> while IMC < 18.5:
+... cat = "Bajo peso"
+  File "<stdin>", line 2
+    cat = "Bajo peso"
+    ^
+IndentationError: expected an indented block
+>>> return cat
+  File "<stdin>", line 1
+SyntaxError: 'return' outside function
+>>> while 18.5<IMC<24.9:
+... cat = "Peso normal"
+  File "<stdin>", line 2
+    cat = "Peso normal"
+    ^
+IndentationError: expected an indented block
+>>> return cat
+  File "<stdin>", line 1
+SyntaxError: 'return' outside function
+>>> while 25.0<IMC<29.9:
+... cat = "Sobre peso"
+  File "<stdin>", line 2
+    cat = "Sobre peso"
+    ^
+IndentationError: expected an indented block
+>>> return cat
+  File "<stdin>", line 1
+SyntaxError: 'return' outside function
+>>> while 30.0<IMC<34.9:
+... cat = "Obecidad tipo 1"
+  File "<stdin>", line 2
+    cat = "Obecidad tipo 1"
+    ^
+IndentationError: expected an indented block
+>>> return cat
+  File "<stdin>", line 1
+SyntaxError: 'return' outside function
+>>> while 35.0<IMC<39.9:
+... cat = "Obesidad tipo 2"
+  File "<stdin>", line 2
+    cat = "Obesidad tipo 2"
+    ^
+IndentationError: expected an indented block
+>>> return cat
+  File "<stdin>", line 1
+SyntaxError: 'return' outside function
+>>> while IMC>40:
+... cat = "Obesidad tipo 3"
+  File "<stdin>", line 2
+    cat = "Obesidad tipo 3"
+    ^
+IndentationError: expected an indented block
+>>> return cat
+  File "<stdin>", line 1
+SyntaxError: 'return' outside function
+>>> def imprimir
+  File "<stdin>", line 1
+    def imprimir
+                 ^
+SyntaxError: invalid syntax
+>>> print (#Informacion personal Nombre y Apellido:"+persona["Nombre"].upper()+""
+... +persona["Apellido"].upper()+"/nCategoria de IMC:"+cat_IMC().upper()+
+... "/Peso"+persona["Peso"]+"Kg/Altura:"+persona["Altura"]+"Metros/nEdad:"+persona["Edad"]+"años""/ndireccion en:"+persona["Direccion"].upper()+
+... "/Telefono:"+persona["Telefono"])
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+TypeError: bad operand type for unary +: 'str'
+>>> for p in persona
+  File "<stdin>", line 1
+    for p in persona
+                    ^
+SyntaxError: invalid syntax
+>>> persona[p]=input("ingrese su [p]:")
+ingrese su [p]:IMC=round(float(persona["Altura"])**2),2)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'p' is not defined
+>>> perona["imc"]=IMC
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'IMC' is not defined
+>>> cat_IMC()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'cat_IMC' is not defined
+>>> imprimir()
